@@ -1,0 +1,246 @@
+*{margin: 0; padding: 0; font-family: 'Cantarell', sans-serif; 
+box-sizing: border-box;}
+
+body{
+	
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+  } 
+
+  header{
+  	width: 100%;
+  	height: 80vh;
+    background-image: url('back3.jfif');
+    box-shadow: 2px 4px 3px 5px grey;
+      /* z-index: 1000; */
+  }
+  .navbar{
+  	display: flex;
+  	justify-content: space-between;
+  	align-content:  center;
+  }
+
+  .logo{
+  	margin: 15px;
+
+  }
+
+  .logo img{
+     width: 150px;
+     height: auto;
+
+  }
+
+
+  nav{
+  	/* background-attachment: fixed; */
+  	margin: 20px;
+  }
+
+  nav a{
+
+  	padding: 50px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	color: white;
+  	text-shadow: 1px 1px 1px blue;
+  }
+  
+  nav a .second-child{
+    color: red;
+  }
+  
+  nav a:hover{
+      color: purple;
+
+  	}
+
+
+  .borderwalla{
+   color: red;
+   font-weight: bolder;
+   font-size: 25px;
+  }
+.back3{
+  margin-bottom: 20px;
+    
+  }
+ .center {
+  color: white;
+  text-transform: uppercase;
+  margin: 60px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+ }
+  
+  .talla-ko{
+    margin: 40px;
+  }
+.talla-ko h1{
+
+  font-size: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.talla-ko h1:after{
+  content: "";
+  width: 450px;
+  height: 3px;
+  position: absolute;
+  top: 110%;
+  left: 33.5%;
+  background-color:red;
+  
+}
+.talla-ko p{
+  text-align: center;
+}
+aside .image1{
+  display: flex;
+  justify-content: space-around;
+
+}
+ .first1{
+  box-shadow: 3px 4px 5px 3px grey;
+  border-radius: 10px;
+}
+.first2{
+  box-shadow: 3px 4px 5px 3px grey;
+  border-radius: 10px;
+}
+.word{
+  display: flex;
+  justify-content: space-around;
+}
+.letter1{
+  text-indent: 70px;
+  text-transform: capitalize;
+}
+.p1{
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.letter2{
+  text-indent: 25%
+
+}
+
+.p2{
+  text-indent: 40px;
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+
+}
+.image2{
+  display: flex;
+  justify-content: space-around;
+}
+.second1{
+   box-shadow: 3px 4px 5px 3px grey;
+  border-radius: 10px;
+}
+.second2{ box-shadow: 3px 4px 5px 3px grey;
+  border-radius: 10px;}
+  
+
+  .word2{
+    display: flex;
+    justify-content: space-around;
+
+      }
+  .letter3{
+    text-transform: capitalize;
+    text-indent: 70px;
+
+  }
+  .p3{
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .letter4{
+    text-transform: capitalize;
+    text-indent: 5px;
+  }
+  .p4{
+    text-transform: capitalize;
+    text-indent: -20%;
+    text-align: center;
+
+  }
+  .gif2{
+  width: 20%;
+  height: auto;
+  position: relative;
+  animation: animate 5s linear infinite;
+  
+}
+@keyframes animate {
+  from {
+    right:  0;
+  }
+  
+  to {
+    right:  -85%;
+  }
+}
+  .group2{
+          font-size: 20px;
+          margin: 30px;
+          text-transform: capitalize;
+          font-weight: bolder;
+          cursor: pointer;
+  }
+.group3{
+  text-indent: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+  .colorgroup{
+    text-transform: uppercase;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    height: 90%;
+    background-size: 100%;
+  }
+
+  .paddingside{
+    padding: 100px;
+    color: aliceblue;
+    
+
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+  }
+  .last{
+
+    text-transform: capitalize;
+    padding: 40px;
+  }
+  
+@media only screen and (max-width:600px){
+}

@@ -1,0 +1,157 @@
+*{margin: 0; padding: 0; font-family: 'Cantarell', sans-serif;}
+
+body{
+	background: url('back1.png');
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background-attachment: fixed;
+
+  } 
+
+  header{
+  	width: 100%;
+  	height: 10vh;
+  	background: rgba(255, 255, 255, .2);
+  	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .navbar{
+  	display: flex;
+  	justify-content: space-between;
+  	align-content:  center;
+  }
+
+  .logo{
+  	margin: 15px;
+
+  }
+
+  .logo img{
+     width: 150px;
+     height: auto;
+  }
+
+
+  nav{
+  	/* background-attachment: fixed; */
+  	margin: 20px;
+  }
+
+  nav a{
+
+  	padding: 50px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	color: black;
+  	text-shadow: 1px 1px 1px blue;
+  }
+  
+  nav a:last-child{
+  	color: blue;
+  }
+  
+  nav a:hover{
+      color: purple;
+
+  	}
+
+.htag h1{
+  text-transform: capitalize;
+  font-size: 80px;
+  /* margin: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.htag p{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle h1{
+    color: blue;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.bichma{
+  font-size:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+foam{
+  margin-left: 90px;
+
+}
+
+.foam1{
+  padding: 10px;
+  margin: 15px;
+  width: 300px;
+  height: 30px;
+  box-shadow: 2px 4px 3px 3px grey;
+
+}
+button{
+  color: white;
+  width: 90px;
+  height: 30px;
+  text-transform: capitalize;
+  border: 2px solid red;
+  border-radius: 10px;
+  background: rgba(255, 0, 0, .2);
+}
+.gif{
+  width: 20%;
+  height: auto;
+  position: relative;
+  animation: animate 4s linear infinite;
+  
+}
+@keyframes animate {
+  from {
+    right:  0;
+  }
+  
+  to {
+    right:  -85%;
+  }
+}
+aside{
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+video{
+  width: 40%;
+  border: 3px solid red;
+  box-shadow: 2px 4px 3px 4px grey;
+  border-radius: 10px;
+
+   /*  margin-right: -40%; */
+  display: flex;
+  justify-content: left;
+  align-content: center;
+}
+
+footer{
+  background-color: lightblue;
+  height: 50px;
+}
+footer p{
+  padding: 10px;
+  margin: 10px;
+}
+
+@media only screen and (max-width:600px){
+}
